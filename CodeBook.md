@@ -41,6 +41,7 @@ The data frame variables are sumarised as:
   - mergedFrame: Merge of testFrame and trainFrame with user-friendly "subject" and "activity" columns.
 
 Once the mergedFrame was constructed the following additional transformations were made:
+
 1. All measurements expect for those containing "mean()" and "std()" were removed. This was because we are only interested in the mean and standard deviation measurements.
 2. A tidy data set was constructed. This is the mean (average) for each measurement feature for each activity and each subject.
   
